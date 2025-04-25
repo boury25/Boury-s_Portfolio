@@ -1,0 +1,107 @@
+<header class="header">
+  <div class="logo">Boury<span>.</span></div>
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="blob"></div>
+  <div class="blob"></div>
+
+  <div class="hero-content">
+    <h2>Hi, I'm Abdelrahman Ahmed</h2>
+    <p id="roleText">A Full-Stack Developer dedicated to crafting impactful web experiences.</p>
+
+    <div class="toggle-container" (click)="toggleMode()">
+      <div class="slider" id="slider"></div>
+      <div class="toggle-btn">Full-Stack</div>
+      <div class="toggle-btn" style="left: 50%;">Designer</div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" class="nickname-svg">
+      <defs>
+        <linearGradient id="custom-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#F2EFE7" />
+          <stop offset="100%" stop-color="#48A6A7" />
+        </linearGradient>
+        <linearGradient id="designer-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#b86bff" />
+          <stop offset="100%" stop-color="#6a0dad" />
+        </linearGradient>
+      </defs>
+      <path id="nicknamePath" class="nickname-line" d="M0,50 Q150,100 300,50 T600,50" stroke="url(#custom-gradient)" stroke-width="5" fill="none" />
+    </svg>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <img id="about-img" src="" alt="About Me" />
+  <div class="edu-card" (click)="toggleEduCard()">
+    <div class="edu-logo hidden" id="eduDetails">
+      <img src="assets/Fue logo.jpg" alt="University Logo" />
+      <p><strong>Faculty:</strong> Computer and Information Technology</p>
+      <p><strong>University:</strong> Future University in Egypt</p>
+      <p><strong>Graduated:</strong> 2024</p>
+      <p><strong>GPA:</strong> 3.07 / 4.0</p>
+    </div>
+    <i class="fas fa-university edu-icon"></i>
+  </div>
+  <div class="about-content">
+    <h3>About Me</h3>
+    <p id="about-description"></p>
+    <div id="skills" class="skills"></div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="swiper-container">
+    <div class="swiper-wrapper" id="projects-wrapper"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<div id="projectModal" class="modal" (click)="closeModal($event)">
+  <div class="modal-content">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="project-skills" id="modalSkills"></div>
+      </div>
+      <div class="modal-right">
+        <div class="swiper-container modal-swiper">
+          <div class="swiper-wrapper" id="modalImages"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="contact" class="contact">
+  <h3>Contact Me</h3>
+  <form id="contact-form">
+    <input type="text" name="user_name" placeholder="Your Name" required />
+    <input type="email" name="user_email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="form-status"></p>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/boury_25" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.me/qr/W775VMOPQOLUN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/abdelrahman-ahmed-56241920b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.behance.net/abdelraahmed230" target="_blank"><i class="fab fa-behance"></i></a>
+    </div>
+  </div>
+  <p>© 2024 Boury. All Rights Reserved.</p>
+</footer>

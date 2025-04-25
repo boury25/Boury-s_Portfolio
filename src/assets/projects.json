@@ -1,0 +1,103 @@
+[
+    {
+      "title": "AI-Powered Document Summarizer",
+  "images": ["Projects/Summarizer/Summarizer1.png", "Projects/Summarizer/Summarizer2.png"],
+  "description": "A web app that extracts article text from any URL and summarizes it using Hugging Face's AI models. Features include summary length selection, responsive design, and clipboard support.",
+  "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Hugging Face API", "AllOrigins API"],
+  "type": "dev"
+    },
+    {
+        "title": "Skull X-ray Landmark Detection",
+        "images": ["Projects/Landmark/Landmark1.png", "Projects/Landmark/Landmark2.png", "Projects/Landmark/Landmark3.png"],
+        "description": "A desktop application that detects 3D anatomical landmarks on skull X-rays (DICOM files) using deep learning and visualizes them with VTK. The app includes hoverable labels for 20+ keypoints, model ensemble predictions, and full PyQt5 UI with progress tracking.",
+        "skills": ["Python", "TensorFlow", "VTK", "PyQt5", "SimpleITK", "pydicom"],
+        "type": "dev"
+      },
+      {
+        "title": "Duat - AI-Powered Tourism App",
+        "images": ["Projects/Duat/LOGOO.png","Projects/Duat/News.jpeg","Projects/Duat/Calendar.jpeg", "Projects/Duat/Crowd.jpeg","Projects/Duat/Currency Rate.jpeg","Projects/Duat/Discover Monuments.jpeg"
+        ,"Projects/Duat/Event Details.jpeg","Projects/Duat/Flight.jpeg","Projects/Duat/Hotels.jpeg","Projects/Duat/Image Recognition.jpeg"
+        ,"Projects/Duat/Nearby.jpeg","Projects/Duat/Trip plan Search.jpeg", "Projects/Duat/Trip plan.jpeg"],
+        "description": "Duat is a smart tourism assistant built with Flutter, designed to elevate the experience of tourists visiting Egypt. With deep integration of AI, real-time APIs, and Firebase, Duat helps users plan their trip, discover historical monuments, predict crowd levels, and book everything they need seamlessly in one place.",
+        "skills": [
+          "Flutter",
+          "Firebase Authentication",
+          "Firebase Firestore",
+          "TensorFlow Lite",
+          "Google Maps API",
+          "Google Flights API",
+          "Google Hotels API",
+          "Google News API"
+        ],
+        "type": "dev",
+        "features": [
+          "📍 Discover 100+ monuments (Mosques, Churches, Museums, Citadels, Temples) with real-time details such as opening hours, ticket prices, and locations—all stored and managed in Firebase.",
+          "📸 AI-powered image recognition of 15+ monuments using a custom-trained TFLite model built on a self-collected dataset.",
+          "📊 Smart crowd prediction using AI trained on 1 year of hourly traffic data per monument.",
+          "🧳 Trip planning that personalizes your visit based on city duration, wishlist items, and proximity to optimize your route.",
+          "🛫 Hotel and flight booking through Google Flights and Google Hotels APIs.",
+          "📰 Latest news integration using Google News API to keep tourists informed.",
+          "📅 Events calendar linked with Firebase database for real-time event listings in Egypt.",
+          "💱 Real-time currency converter with nearby exchange store suggestions using Google Maps integration.",
+          "🔐 Firebase-powered login and sign-up system for a personalized experience and saving preferences across sessions."
+        ],
+        "platform": "Mobile (Android & iOS)",
+        "builtWith": "Flutter, Dart, Firebase, TensorFlow Lite, Google APIs"
+    },     {
+      "title": "Gazar Foods Website",
+      "description": "Designed and developed a complete website for Gazar Foods, a healthy cloud kitchen. The site allows users to explore the menu, subscribe to flexible meal packages, choose and customize meals for specific days, and track their orders. Also built a powerful admin dashboard to manage orders, update promo codes, and edit menu items.",
+      "skills": ["UI/UX", "Web Design", "AngularJS", "Bootstrap", "Firebase", "Responsive Design"],
+      "images": [
+        "Projects/Gazar website/1.png",
+        "Projects/Gazar website/2.png",
+        "Projects/Gazar website/3.png",
+        "Projects/Gazar website/4.png",
+        "Projects/Gazar website/5.png",
+        "Projects/Gazar website/6.png",
+        "Projects/Gazar website/7.png",
+        "Projects/Gazar website/8.png",
+        "Projects/Gazar website/9.png"     
+      ],
+      "type": "dev"
+    },     
+    {
+        "title": "Gazar Foods Branding",
+        "type": "design",
+        "images": [
+          "Projects/Gazarfoods/1.png",
+         "Projects/Gazarfoods/2.png",
+         "Projects/Gazarfoods/3.png",
+         "Projects/Gazarfoods/4.png",
+         "Projects/Gazarfoods/5.png",
+         "Projects/Gazarfoods/6.png",
+         "Projects/Gazarfoods/7.png",
+         "Projects/Gazarfoods/8.png",
+         "Projects/Gazarfoods/9.png",
+         "Projects/Gazarfoods/10.png",
+         "Projects/Gazarfoods/11.png",
+         "Projects/Gazarfoods/12.png",
+         "Projects/Gazarfoods/13.png",
+         "Projects/Gazarfoods/14.png"
+    
+        ],
+        "description": "Complete brand identity for Gazar Foods — a healthy cloud kitchen. Work includes logo design, packaging, and social media campaign.",
+        "skills": ["Branding", "Logo Design", "Social Media", "Packaging", "Illustrator", "Photoshop"]
+      }
+      ,
+      {
+        "title": "Chewy's Burger",
+        "description": "Created the logo and packaging design for Chewy's Burger, a modern and edgy burger brand. The visual identity reflects boldness and street-food energy.",
+        "skills": ["Branding", "Logo Design", "Packaging", "Illustrator", "Photoshop"],
+        "images": [
+            "Projects/Chewy's/1.png",
+         "Projects/Chewy's/2.png",
+         "Projects/Chewy's/3.png",
+         "Projects/Chewy's/4.png",
+         "Projects/Chewy's/5.png",
+         "Projects/Chewy's/6.png",
+         "Projects/Chewy's/7.png"
+        ],
+        "type": "design"
+      }
+  ]
+  
