@@ -32,8 +32,8 @@
   },
   {
     "glob": "**/*",
-    "input": "src/Projects",
-    "output": "Projects"
+    "input": "src/Projects2",
+    "output": "Projects2"
   }
 ],
            "styles": [
@@ -102,8 +102,8 @@
   },
   {
     "glob": "**/*",
-    "input": "src/Projects",
-    "output": "Projects"
+    "input": "src/Projects2",
+    "output": "Projects2"
   }
 ],
             "styles": [

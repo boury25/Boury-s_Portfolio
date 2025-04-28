@@ -6,6 +6,7 @@
   "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Hugging Face API", "AllOrigins API"],
   "type": "dev"
     },
+    
     {
         "title": "Skull X-ray Landmark Detection",
         "images": ["Projects/Landmark/Landmark1.png", "Projects/Landmark/Landmark2.png", "Projects/Landmark/Landmark3.png"],
