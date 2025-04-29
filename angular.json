@@ -23,19 +23,16 @@
             "assets": [
   {
     "glob": "**/*",
-    "input": "public"
-  },
-  {
-    "glob": "**/*",
     "input": "src/assets",
     "output": "assets"
   },
   {
     "glob": "**/*",
-    "input": "src/Projects2",
-    "output": "Projects2"
+    "input": "src/Projects",
+    "output": "Projects"
   }
 ],
+
            "styles": [
   "src/styles.css"
 ],
