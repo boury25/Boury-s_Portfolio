@@ -1,4 +1,4 @@
-[
+[ 
     {
       "title": "AI-Powered Document Summarizer",
   "images": ["Projects2/Summarizer/Summarizer1.png", "Projects2/Summarizer/Summarizer2.png"],
@@ -6,6 +6,7 @@
   "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Hugging Face API", "AllOrigins API"],
   "type": "dev"
     },
+    
     
     {
         "title": "Skull X-ray Landmark Detection",
